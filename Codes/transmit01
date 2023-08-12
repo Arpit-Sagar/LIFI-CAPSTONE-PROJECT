@@ -1,1 +1,27 @@
+//transmitter
+const int TX_PIN = 1;      // Set your TX pin here
+const int blinkDelay = 900; // Delay between LED blinks (in ms)
 
+void setup() {
+  pinMode(TX_PIN, OUTPUT);
+}
+
+void loop() {
+  // Transmit data "110011"
+  transmitBit(1);
+  transmitBit(1);
+  transmitBit(0);
+  transmitBit(0);
+  transmitBit(1);
+  transmitBit(1);
+
+  // You can add additional delay between transmissions if needed
+  // delay(1000);
+}
+
+void transmitBit(int bitValue) {
+  digitalWrite(TX_PIN, bitValue); // Set LED to bitValue (HIGH or LOW)
+  delay(blinkDelay);
+  digitalWrite(TX_PIN, LOW); // Turn off the LED
+  delay(blinkDelay);
+}
