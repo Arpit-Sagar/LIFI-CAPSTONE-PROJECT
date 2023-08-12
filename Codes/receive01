@@ -1,0 +1,45 @@
+//receiver
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+LiquidCrystal_I2C lcd(0x27, 16, 2); // Change 0x27 to your LCD's address
+const int RX_PIN = 0; // Set your RX pin here (connected to photodiode)
+const int receiveDelay = 900; // Delay between receiving each bit (in ms)
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(RX_PIN, INPUT); // Set RX_PIN as input
+  lcd.init();
+  lcd.backlight();
+  lcd.setCursor(0, 0);
+  lcd.print("R:");
+}
+
+void loop() {
+  String receivedMessage = "";
+  
+  while (true) {
+    
+    int bitValue = digitalRead(RX_PIN); // Read photodiode value
+    
+    if (bitValue == HIGH) {
+      lcd.print("1");
+      receivedMessage += "1";
+    } else if (bitValue==LOW)
+    {
+      lcd.print("0");
+      receivedMessage += "0";
+    }
+    
+    delay(receiveDelay);
+    
+    // Check for end of transmission (stop bit)
+    // if (bitValue == LOW) {
+    //   break;
+    // }
+  }
+  
+  // lcd.clear();
+  // lcd.setCursor(0, 1);
+  // lcd.print(receivedMessage);
+}
