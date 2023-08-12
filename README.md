@@ -8,6 +8,7 @@ Basic idea of Blinking of Light LEDs at a faster rate,the receiver detects the b
 In this way,data transfer is implemented which ensures speed, security and efficiency.
 
 Project Timeline : Jan 2023- Present (development phase)
+
 Initial Demo :
 
 
