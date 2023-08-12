@@ -1,4 +1,4 @@
-# LIFI-CAPSTONE-PROJECT(2023)
+# LIFI CAPSTONE PROJECT(2023)
 
 To implement automatic system of toll collection using LiFi(Light Fidelity), eliminating conventional methods and enhancing speed and accuracy in context of Toll Collection.
 
