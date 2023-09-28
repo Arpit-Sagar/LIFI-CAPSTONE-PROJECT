@@ -13,16 +13,14 @@ Activity Diagram :
 
 ![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/33848703-5fe5-4c73-bf43-46a94702b87c)
 
-ER Diagram :
-
-![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/f7b2e1e8-a488-4140-bb37-0ff65eb5a1c4)
-
 
 Class Diagram :
 
 ![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/ab8d41da-ee25-4bd4-95c8-e42ee96df5d9)
 
-PROJECT/assets/96679459/9110e057-4801-44e3-b2b1-b71b2cdd52f0)
+Use Case Diagram : 
+
+![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/dfe0994f-399c-4e9f-a241-160e2f4855a3)
 
 
 In this way,data transfer is implemented which ensures speed, security and efficiency.
