@@ -13,13 +13,24 @@ Activity Diagram :
 
 ![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/33848703-5fe5-4c73-bf43-46a94702b87c)
 
+ER Diagram :
+
+![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/f7b2e1e8-a488-4140-bb37-0ff65eb5a1c4)
+
+
+Class Diagram :
+
+![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/ab8d41da-ee25-4bd4-95c8-e42ee96df5d9)
+
+PROJECT/assets/96679459/9110e057-4801-44e3-b2b1-b71b2cdd52f0)
+
+
 In this way,data transfer is implemented which ensures speed, security and efficiency.
 
 In this project, a vehicle installed with LiFi Transmitter transmits data(vehicle information i.e the unique vehicle number)through light and LiFi Receiver installed on Toll Gate receives it and detects the light and successful data communication leads to Vehicle information being displayed. This project is a combination of IoT,Programming and Software Development. 
 Further integration with WiFi module to the software developed leads to a payment transaction from the user wallet that is mapped to the vehicle number owned by the user.
 This project is a prototype of the alternative optimal solution proposed for toll collection and implements unique design and structural technique.
 
-![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/58508d65-7240-48fd-bf79-e3d5c4f8bca7)
 
 Project Timeline : Jan 2023- Present (development phase)
 
@@ -29,11 +40,11 @@ Initial Demo :
 https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT-/assets/96679459/e7afb41a-90de-4982-8dbb-220e258df7f5
 
 
-Bit by Bit (0 1) data transfer (Initial LED LDR testing stage)
+Bit by Bit (01) data transfer (Initial LED LDR testing stage):
 
 ![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT-/assets/96679459/9feb80d5-31fc-4d2c-9c26-ae5b4560a7a4)
 
-Vehicle number (data transfer) using LIFI transimitter
+Vehicle Number (data transfer) using LIFI transimitter:
 
 ![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/9e7c217c-b5b6-4d5c-b0e0-22f8fae74003)
 
