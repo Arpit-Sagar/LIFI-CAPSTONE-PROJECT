@@ -53,10 +53,16 @@ Prototype of buggy for Project Model:
 
 ![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/78bbc1a6-106c-429e-8ba1-79e30b103cb9)
 
+
+![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/ddec1a52-2a4e-4c49-b43a-bca59230423b)
+
+
 Software Associated :
 
 ![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/6d662ca3-c1c4-4340-a96b-28677171f024)
 ![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/ebecbcfa-dcd8-4630-b147-a0981f31c726)
+
+Blinking Light --> Vehicle Number Display 
 
 
 
