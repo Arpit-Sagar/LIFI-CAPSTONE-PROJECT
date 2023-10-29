@@ -63,6 +63,7 @@ Software Associated :
 ![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/ebecbcfa-dcd8-4630-b147-a0981f31c726)
 
 Blinking Light --> Vehicle Number Display 
+
 https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/blob/main/BLINKING%20VEHICLE%20NUMBER%20DISPLAY.mp4
 
 
