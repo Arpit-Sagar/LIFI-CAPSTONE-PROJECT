@@ -64,6 +64,8 @@ Software Associated :
 
 Blinking Light --> Vehicle Number Display 
 
+BLINKING VEHICLE NUMBER DISPLAY.mp4
+
 https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/blob/main/BLINKING%20VEHICLE%20NUMBER%20DISPLAY.mp4
 
 
