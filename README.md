@@ -2,13 +2,17 @@
 Final Year Project
 To implement automatic system of toll collection using LiFi(Light Fidelity), eliminating conventional methods and enhancing speed and accuracy in context of Toll Collection.
 
-
 ![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/9d0e8d69-1fde-4667-aa5b-3ce46e64522f)
 
 DATA transmission between LIFI Transmitter and Receiver on the principle of light detection,encoding and decoding of bits of data sent.
+
 Basic idea of Blinking of Light LEDs at a faster rate,the receiver detects the blinking and decodes the data bits sent with the appropriate delay to succesfully display the message senti.e the vehicle number and toll gets deducted through payment portal.
+
 Lifi Transmitter(Array of LED lights) installed on vehicle --> prototype of programmed headlight
 Lifi Receiver on Toll gate detecting Vehicle number to map to existing database to deduct payment integration through WiFi Module ESP8266.
+
+![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/f8a45f1a-5bdc-47a5-a4a2-6770ac7c27e5)
+![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/642917c7-8b80-4d94-84db-66937b6c64cc)
 
 
 Activity Diagram :
@@ -35,10 +39,7 @@ This project is a prototype of the alternative optimal solution proposed for tol
 Project Timeline : Jan 2023- Dec 2023
 
 Initial Demo :
-
-
 https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT-/assets/96679459/e7afb41a-90de-4982-8dbb-220e258df7f5
-
 
 Bit by Bit (01) data transfer (Initial LED LDR testing stage):
 
@@ -51,12 +52,9 @@ Vehicle Number (data transfer) using LIFI transimitter:
 ![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/778b3cef-3723-49fb-b677-e6c8a16b388f)
 ![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/249486bb-776e-4f48-bbda-c791e5d3132d)
 
-Prototype of buggy for Project Model:
+Receiver Installation:
 
-
-
-![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/ddec1a52-2a4e-4c49-b43a-bca59230423b)
-
+![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/258055e9-5b79-4026-a7f7-60bd1a4f106d)
 
 Software Associated :
 
@@ -67,9 +65,8 @@ Blinking Light --> Vehicle Number Display
 
 BLINKING VEHICLE NUMBER DISPLAY.mp4
 
+![image](https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/assets/96679459/819dcd5d-cded-4b55-bc1d-2f3607bb0906)
+
+
 https://github.com/Arpit-Sagar/LIFI-CAPSTONE-PROJECT/blob/main/BLINKING%20VEHICLE%20NUMBER%20DISPLAY.mp4
-
-
-
-
-
+Complete Video Uploaded For reference.
