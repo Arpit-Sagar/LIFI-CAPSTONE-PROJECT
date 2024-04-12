@@ -25,3 +25,44 @@ void transmitBit(int bitValue) {
   digitalWrite(TX_PIN, LOW); // Turn off the LED
   delay(blinkDelay);
 }
+
+//*** FINAL CODE IMPLEMENTATION ***//
+//Transmitter final code for Vehicle Number
+
+const int TX_PIN = 1;      // Set your TX pin here
+const int blinkDelay = 900; // Delay between LED blinks (in ms)
+
+void setup() {
+  pinMode(TX_PIN, OUTPUT);
+}
+bool dataSent = true; // Flag to track if data has been sent
+void loop() {
+
+  // Transmit data "11101"
+  transmitBit(1);
+  transmitBit(0);
+  transmitBit(1);
+  transmitBit(0);
+  transmitBit(1);
+  transmitBit(0);
+  transmitBit(1);
+  
+  //transmitBit(1);
+  
+   delay(900);
+ // dataSent=false;
+  
+}
+void transmitBit(int bitValue) {
+  if(bitValue==1)
+  {
+    digitalWrite(TX_PIN, HIGH); // Set LED to bitValue (HIGH or LOW)
+    delay(blinkDelay);
+  }
+  else if(bitValue==0)
+  {
+     digitalWrite(TX_PIN, LOW); // Turn off the LED
+     delay(blinkDelay);
+  }
+  
+}
