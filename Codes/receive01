@@ -43,3 +43,60 @@ void loop() {
   // lcd.setCursor(0, 1);
   // lcd.print(receivedMessage);
 }
+
+
+//*** FINAL IMPLEMENTATION ***//
+//Receiver final for Vehicle Number 
+
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+LiquidCrystal_I2C lcd(0x27, 16, 2); // Change 0x27 to your LCD's address
+const int RX_PIN = 0; // Set your RX pin here (connected to photodiode)
+const int receiveDelay = 900; // Delay between receiving each bit (in ms)
+const String expectedSequence = "1010101"; // The sequence to detect
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(RX_PIN, INPUT); // Set RX_PIN as input
+  lcd.init();
+  lcd.backlight();
+  lcd.setCursor(0, 0);
+  lcd.print("R:");
+}
+
+void loop() {
+  String receivedMessage = "";
+  
+   while (receivedMessage.length() < expectedSequence.length()) 
+   {
+    int bitValue = digitalRead(RX_PIN); // Read photodiode value
+    
+    if (bitValue == HIGH) {
+     //lcd.print("1");
+      receivedMessage += "1";
+      delay(receiveDelay);
+    } else if (bitValue == LOW) {
+     // lcd.print("0");
+      receivedMessage += "0";
+      delay(receiveDelay);
+    }
+    
+    
+  }
+   lcd.clear();
+    lcd.setCursor(0, 0);
+    lcd.print(receivedMessage);
+    // lcd.clear();
+     lcd.setCursor(0, 1);
+    lcd.print("PB03AM5849");
+  // if (receivedMessage == expectedSequence) {
+  //   lcd.clear();
+  //   lcd.setCursor(0, 1);
+  //   lcd.print(receivedMessage);
+  //   //lcd.print("PB03AM5849");
+    
+    // Optional: You can add a delay here if you want to see the displayed message for a while
+    delay(900);
+  //}
+}
